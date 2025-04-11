@@ -2,10 +2,10 @@ import mysql.connector
 
 def get_db():
     conn = mysql.connector.connect(
-        host = "localhost",
-        user = "root",
+        host = "host",
+        user = "user",
         password = "password",
-        database = "kintaidb"
+        database = "database"
     )
     return conn
 
